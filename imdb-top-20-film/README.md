@@ -1,21 +1,21 @@
 Bu proje, IMDB Top 250 listesinin ilk 20 filmini Python kullanarak otomatik olarak çekip, yapılandırılmış veri dosyalarına kaydeder ve verileri görsel olarak analiz eder.
 
 Amaç, IMDB’nin güncel "Top 250" listesindeki en yüksek puanlı 20 filmin:
-+Adı
-+IMDB puanı
-+Toplam oy sayısı
-+Yayın yılı
-+Süresi
++ Adı
++ IMDB puanı
++ Toplam oy sayısı
++ Yayın yılı
++ Süresi
 gibi temel bilgileri çekmek, bunları .csv ve .xlsx formatlarında saklamak ve IMDB puanlarını görselleştirerek analiz kolaylığı sağlamaktır.
 
-Özellikler
-+IMDB web sitesinden HTML içeriği requests ve BeautifulSoup ile dinamik olarak alınır.
-+Çekilen veriler pandas ile işlenerek temiz bir DataFrame formatına dönüştürülür.
-+Her çalıştırmada kayıt tarihiyle isimlendirilmiş bir klasör oluşturulur.
-+Veriler .csv ve .xlsx dosyaları olarak kaydedilir.
-+IMDB puanları yatay bar grafiğiyle görselleştirilir (matplotlib).
-+Her barın ucunda puan ve toplam oy sayısı etiketlenir.
-+Grafik .png formatında aynı klasöre kaydedilir
+Özellikler:
++ IMDB web sitesinden HTML içeriği requests ve BeautifulSoup ile dinamik olarak alınır.
++ Çekilen veriler pandas ile işlenerek temiz bir DataFrame formatına dönüştürülür.
++ Her çalıştırmada kayıt tarihiyle isimlendirilmiş bir klasör oluşturulur.
++ Veriler .csv ve .xlsx dosyaları olarak kaydedilir.
++ IMDB puanları yatay bar grafiğiyle görselleştirilir (matplotlib).
++ Her barın ucunda puan ve toplam oy sayısı etiketlenir.
++ Grafik .png formatında aynı klasöre kaydedilir
 
 Kullanılan Kütüphaneler:
 
